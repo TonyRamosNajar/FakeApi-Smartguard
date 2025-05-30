@@ -1,124 +1,119 @@
 {
-    "product": [
+    "homes": [
         {
-            "img": "https://www.claroshop.com/c/star-wars-day/img/categorias/TAZAS_CATEGORIAS_STAR_WARS.png",
-            "name": "Trooper taza",
-            "price": "$60.00",
-            "Description": "Taza casco Trooper",
-            "category": "starwars",
-            "id": 1
+            "id": 1,
+            "name": "Casa Los Pinos",
+            "address": "Av. Los Álamos 45, San Isidro, Lima, Perú",
+            "propertyType": "Casa",
+            "bedrooms": 4,
+            "bathrooms": 3,
+            "heating": true,
+            "waterSupply": "Agua Potable",
+            "internetProvider": "Claro",
+            "securitySystem": "Cámaras CCTV y sensor de movimiento",
+            "smartFeatures": 8,
+            "photoURL": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/FJYA5LJ4PNEIVNBUDMQ66KV6UQ.jpg"
         },
         {
-            "img": "https://cdn1.coppel.com/images/catalog/mkp/1773/5000/17733590-1.jpg",
-            "name": "Funko Vader",
-            "price": "$60.00",
-            "Description": "Funko coleccionable Darth vader",
-            "category": "starwars",
-            "id": 2
+            "id": 2,
+            "name": "Departamento Vista Mar",
+            "address": "Malecón de la Reserva 123, Miraflores, Lima, Perú",
+            "propertyType": "Departamento",
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "heating": false,
+            "waterSupply": "Agua Potable",
+            "internetProvider": "Movistar",
+            "securitySystem": "Alarma perimetral",
+            "smartFeatures": 5,
+            "photoURL": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
         },
         {
-            "img": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA12N6pr.img?w=500&h=500&m=6",
-            "name": "Grogu (Baby Yoda)",
-            "price": "$100.00",
-            "Description": "Grogu peluche electrónico",
-            "category": "starwars",
-            "id": 3
+            "id": 3,
+            "name": "Quinta Verde",
+            "address": "Camino Real 4403",
+            "propertyType": "Casa de campo",
+            "bedrooms": 6,
+            "bathrooms": 4,
+            "heating": true,
+            "waterSupply": "Pozo profundo",
+            "internetProvider": "Entel",
+            "securitySystem": "Cámaras y alarma integrada",
+            "smartFeatures": 11,
+            "photoURL": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
         },
         {
-            "img": "https://cdn.shopify.com/s/files/1/0563/9831/5692/files/luke-skywalker-lightsaber-hilt.png?v=1656863305",
-            "name": "Lightsaber",
-            "price": "$3000.00",
-            "Description": "Sable de luz para duelos",
-            "category": "starwars",
-            "id": 4
+            "id": 4,
+            "name": "Loft Urbano",
+            "address": "Jirón Junín 456, Cercado de Lima, Lima, Perú",
+            "propertyType": "Loft",
+            "bedrooms": 1,
+            "bathrooms": 1,
+            "heating": false,
+            "waterSupply": "Agua Potable",
+            "internetProvider": "Fibertel",
+            "securitySystem": "Sensor de humo",
+            "smartFeatures": 3,
+            "photoURL": "https://media.istockphoto.com/id/157193895/es/foto/la-hermosa-piscina-en-una-finca-hogar.jpg?s=612x612&w=0&k=20&c=9SY3IDt3vmyAlr2_O58d5s5kNlhoYYNl6M6GaGPcjJs="
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "nombres": "Carlos",
+            "apellidos": "Sousa",
+            "email": "carlos@gmail.com",
+            "telefono": "987362738",
+            "ubicacion": "Peru",
+            "direccion": "La paz 321",
+            "fechadenacimiento": "",
+            "genero": "Masculino",
+            "ocupacion": "Profesor",
+            "foto": "https://www.uns.edu.pe/recursos/noticias/d47d3505b4171afc72df01d61dd6fe19.jpg",
+            "password": "hola",
+            "confirmpassword": "hola",
+            "terminos": true
+        }
+    ],
+    "members": [
+        {
+            "id": 1,
+            "nombre": "Pedro Gomez",
+            "edad": 32,
+            "rol": "Familiar",
+            "parentesco": "Hijo",
+            "descripcion": "Soy Pedro hijo y quiero tener acceso a mi casa",
+            "foto": "https://media.istockphoto.com/id/1323167284/es/foto/joven-indio-exitoso-con-elegantes-anteojos-de-pie-en-la-calle-guapo-modelo-asi%C3%A1tico-posando.jpg?s=612x612&w=0&k=20&c=oug8WEXKK_e7cJPPJ7EqUc1yq2_tVQpeNTl1_2B-DZo="
         },
         {
-            "img": "https://tooys.mx/media/wysiwyg/Darth_Vader-estatua-premium-format-por-sideshow-19.png",
-            "name": "Darth Vader",
-            "price": "$450.00",
-            "Description": "DarDarth  Vader figura de coleción",
-            "category": "starwars",
-            "id": 5
+            "id": 2,
+            "nombre": "Joaquin Chupez",
+            "edad": 23,
+            "rol": "Familiar",
+            "parentesco": "Hijo",
+            "descripcion": "Hola soy joaquin y soy feliz",
+            "foto": "https://media.istockphoto.com/id/516688666/es/foto/hermosa-adolescente-de-sexo-masculino-sonriendo-y-posando-sobre-fondo-blanco.jpg?s=612x612&w=0&k=20&c=zJQX-ExYhWSL9NeyhGNZXfafIrW6wzSqs1sSCDPTa2Y="
         },
         {
-            "img": "https://www.cibermoda.mx/assets/images/craft_images/productos/Consola-Retro-Portatil-X12-Plus-pantalla-7-pulgadas-color-rojo-azul-joystick.webp",
-            "name": "X12 Plus",
-            "price": "$4500.00",
-            "Description": "consola portatil, 16 Gb de RAM",
-            "category": "consolas",
-            "id": 1
-        },
+            "id": 3,
+            "nombre": "Gerardo Perez",
+            "edad": 44,
+            "rol": "Familiar",
+            "parentesco": "Abuelo",
+            "descripcion": "Hoy soy Gerardo",
+            "foto": "https://media.istockphoto.com/id/1273871774/es/foto/joven-joven-%C3%A1rabe-guapo-hombre-que-lleva-camiseta-blanca-casual-cara-feliz-sonriendo-con-los.jpg?s=612x612&w=0&k=20&c=26Su4ruTsO9ppelZcIrHdog54BV43qFc-UE92wlNh_A="
+        }
+    ],
+    "devices": [
         {
-            "img": "https://revistasociosams.com/wp-content/uploads/2021/03/control-inalambrico-Xbox%E2%80%8B-1.png",
-            "name": "Control Xbox One",
-            "price": "$950.00",
-            "Description": "Control Xbox serie One",
-            "category": "consolas",
-            "id": 2
-        },
-        {
-            "img": "https://www.incentivosblackhawk.com.mx/wp-content/uploads/2022/05/Steam.png",
-            "name": "Steam Card",
-            "price": "$200.00",
-            "Description": "steam card 200 pelucholares",
-            "category": "consolas",
-            "id": 3
-        },
-        {
-            "img": "https://www.techpowerup.com/review/scuf-impact-controller-ps4-pc/images/small.png",
-            "name": "Control usb",
-            "price": "$500.00",
-            "Description": "Control de china",
-            "category": "consolas",
-            "id": 4
-        },
-        {
-            "img": "https://virtumaniacos.com/wp-content/uploads/2022/03/playstation-vr-visor.webp",
-            "name": "Oculus Quest 2 ",
-            "price": "$4500.00",
-            "Description": "Su versatilidad nos va a permitir usarlas en formato Standalone, es decir no depende de ningún otro elemento como cámaras o hardware externo, y esto las ha convertido el las gafas VR más vendidas desde 2020. Incluso puedes conectarlas a un ordenador (opcional) por cable o por wifi para jugar a juegos y usar aplicaciones aún más exigentes. ",
-            "category": "consolas",
-            "id": 5
-        },
-        {
-            "img": "https://otakutienda.com/cdn/shop/products/IMG_5186_580x.png?v=1644943571",
-            "name": "Pikachu Itachi  edition",
-            "price": "$500.00",
-            "Description": "Edición especial Pikachu Itachi  anbu",
-            "category": "diversos",
-            "id": 1
-        },
-        {
-            "img": "https://ggezstore.net/wp-content/uploads/2021/12/DEADPOOL-PIKACHU-e1640658722195.png",
-            "name": "Pikachu Deadpool",
-            "price": "$250.00",
-            "Description": "Pikachu edición deadpool",
-            "category": "diversos",
-            "id": 2
-        },
-        {
-            "img": "https://cdn.shopify.com/s/files/1/2437/4099/products/spider-man_marvel_silo_480x672.png?v=1649713239",
-            "name": "Spiderman Hot Toys",
-            "price": "$660.00",
-            "Description": "Hot Toys CosRider: Marvel Spider Man Far From Home - Spider Man — Distrito Max",
-            "category": "diversos",
-            "id": 3
-        },
-        {
-            "img": "https://www.panupli.es/3364-large_default/funko-pop-es-dla-gandalf-montado-en-gwaihir.jpg",
-            "name": "Funko Gandalf en Gwaihir",
-            "price": "$600.00",
-            "Description": "Colecciona el Funko POP de Gandalf montado en el águila Gwaihir de las increíbles películas de El Señor de los Anillos",
-            "category": "diversos",
-            "id": 4
-        },
-        {
-            "img": "https://lemongamesmx.com/cdn/shop/products/fun55641-dragon-ball-z-cell-first-form-glow-in-the-dark-pop-vinyl-figure-popcultcha-01_480x480.png?v=1661980008",
-            "name": "Cell DBZ",
-            "price": "$450.00",
-            "Description": "Cell primera forma, retroiluminado",
-            "category": "diversos",
-            "id": 5
+            "id": 1,
+            "name": "ESP32-CAM Principal",
+            "cameraFeed": "https://www.teslaelectronic.com.pe/wp-content/uploads/2022/11/ESP32-CAM-ADAPTADOR.1.png",
+            "motionDetected": false,
+            "ledOn": false,
+            "firmware": "v1.2.3",
+            "battery": 87,
+            "enrolledUsers": []
         }
     ]
 }
